@@ -118,12 +118,12 @@ void setup() {
         if(a<4){soilHealth[7 - a][20+a] = 45;}
         if(a<3){soilHealth[2 - a][16+a] = 45;}
         if(a<2){soilHealth[1 - a][16+a] = 30;soilHealth[7 - a][22+a] = 30;}
-        soilHealth[7][23] = 45;
       }
       //other
       soilHealth[i][j] = 15;
       }
    }
+   soilHealth[7][23] = 45;
    //Empty
    for(int a = 1; a < 24; a++){
         int count = 1 + floor(random(2));
